@@ -64,6 +64,8 @@ python robolab/scripts/tools/list_envs.py
 python robolab/scripts/rsl_rl/train.py --task=<ENV_NAME> --headless --logger=tensorboard --num_envs=8192
 python robolab/scripts/rsl_rl/train.py --task Mini3-AMP --headless --logger tensorboard --num_envs 4096 --run_name Mini3AMP_baseline
 
+nohup python robolab/scripts/rsl_rl/train.py --task Mini3-AMP --headless --logger tensorboard --num_envs 8192 --run_name Mini3AMP_baseline > output.log 2>&1 & 
+2561420
 ```
 
 ### 测试
